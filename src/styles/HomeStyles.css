@@ -1,0 +1,80 @@
+.home{
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.headerContainer{
+    width: auto;
+    margin-left: 3vw;
+}
+
+.home .headerContainer h1{
+    justify-content: center;
+    align-items: center;
+    font-family: monospace;
+    font-size: 3vw;
+}
+
+.home .headerContainer h6{
+    margin-top: 1.5vh;
+    padding: 0;
+    font-size: 1.5vw;
+    font-weight: lighter;
+}
+
+.home .headerContainer button{
+    margin-top: 3vh;
+    bottom: none;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 10vh;
+    width: 15vw;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    font-size: 1.7vw;
+}
+
+@media only screen and (max-width:600px){
+    .home {
+        justify-content: center;
+        align-items: center;
+      }
+      .headerContainer {
+        margin-left: 0;
+        border-radius: 10px;
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: #121619;
+        color: white;
+      }
+      .home .headerContainer h1 {
+        font-size: 8vw;
+        height: 30px;
+        margin: 30px 0px;
+        color: white;
+      }
+      .home .headerContainer h6 {
+        font-size: 6vw;
+        color: white;
+        margin-bottom: 1vw;
+      }
+      .home .headerContainer button {
+        background-color: white;
+        color: #121619;
+        height: 6vh;
+        width: 30vw;
+        margin-bottom: 30px;
+        font-size: medium;
+        font-weight: 500;
+      }
+}
