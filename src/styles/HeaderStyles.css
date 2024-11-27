@@ -1,0 +1,29 @@
+.navigation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navigation li{
+    margin: 0 2vw;
+    list-style: none;
+}
+
+.navigation li a{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+.responsive-navigation li{
+    list-style: none;
+    margin-top: 2vh;
+
+}
+
+.responsive-navigation a{
+    text-decoration: none;
+    color: black;
+    font-size: large;
+}
