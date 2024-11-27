@@ -1,10 +1,24 @@
 import React from 'react'
 import Layout from '../components/Layout'
+import { Link } from 'react-router-dom'
+import { Button } from '@mui/material'
+import Banner from '../images/banner.jpeg'
+import '../styles/HomeStyles.css'
 
 const Home = () => {
   return (
     <Layout>
-      <h1>Home</h1>
+      <div className='home' style={{backgroundImage:`url(${Banner})`}}>
+        <div className='headerContainer'>
+          <h1>Munch and Crunch</h1>
+          <h6>Best Food in Hyderabad</h6>
+          <Link to={'/menu'}>
+            <Button>
+              ORDER NOW
+            </Button>
+          </Link>
+        </div>
+      </div>
     </Layout>
   )
 }

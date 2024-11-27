@@ -94,7 +94,7 @@ const Header = () => {
           </Drawer>
         </Box>
         
-        <Box sx={{ p: 1 }}>
+        <Box>
           <Toolbar />
         </Box>
 
