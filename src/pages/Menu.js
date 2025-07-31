@@ -1,4 +1,3 @@
-import React from 'react'
 import Layout from '../components/Layout'
 import { Box, Card, CardActionArea, CardContent, CardMedia, Typography } from '@mui/material'
 import { MenuList } from '../data/data'
