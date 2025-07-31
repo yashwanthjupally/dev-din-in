@@ -1,3 +1,4 @@
+import React from 'react'
 import { GitHub, Instagram, Twitter, YouTube } from '@mui/icons-material'
 import { Box, Typography } from '@mui/material'
 
